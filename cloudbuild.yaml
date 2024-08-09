@@ -1,0 +1,8 @@
+steps:
+- name: 'bash'
+  args: ['echo', 'hello gitlab!']
+source: 
+  connected_repository:
+    repository: 'projects/monica-test-341421/locations/us-west1/connections/gcloud-test/repositories/probers-monica-bugbash'
+    revision: 'main'
+
